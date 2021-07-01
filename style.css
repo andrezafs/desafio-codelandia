@@ -56,3 +56,11 @@ form img {
    
  
 }
+.search input::placeholder {
+    color: white;
+    opacity: 0.5;
+    font-size: 18px;
+}
+.search input:placeholder-shown {
+    color: white;
+}
