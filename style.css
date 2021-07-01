@@ -67,8 +67,9 @@ form img {
     color: white;
 }
 main {
- 
-    background: #E5E5E5;}
+
+    background: #E5E5E5;
+}
 
 .news-container {
     padding: 10rem 0;
@@ -112,5 +113,8 @@ main {
     .news-container {
         width: 90%;
        
+    }
+    .news .text h3 {
+        font-size: calc(1.8rem - 0.2rem);
     }
 }
