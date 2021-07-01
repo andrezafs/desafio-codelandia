@@ -5,17 +5,17 @@
     text-decoration: none;
     outline: 0;
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 62.5% 
+    font-size: 62.5%;
 }
 
 header {
-    height:15.625rem ;
+    height:25rem ;
     background: var(--gradient);
  
 }
 .container {
     max-width: 900px;
-    padding: 2.56rem 0;
+    padding: 4.1rem 0;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -40,11 +40,11 @@ form {
     display: flex;
     align-items: center;
     background: rgba(255, 255, 255, 0.2);
-    border-radius: 5px;
+    border-radius: .5rem;
 
 }
 form img {
-    margin: 17px;
+    margin: 1.7rem;
 }
 
 .search input {
@@ -55,12 +55,13 @@ form img {
     border: 0;
     background: none;
     color: white;
+    font-size: 1.8rem;
    
 }
 .search input::placeholder {
     color: white;
     opacity: 0.5;
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 .search input:placeholder-shown {
     color: white;
@@ -70,17 +71,17 @@ main {
     background: #E5E5E5;}
 
 .news-container {
-    padding: 100px 0;
-    max-width: 900px;
+    padding: 10rem 0;
+    max-width: 90rem;
     margin: 0 auto; 
  
 }
 .news {
-    border-radius: 5px;
+    border-radius: .5rem;
     background: white;
-    padding: 41px;
-    box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
-    margin-bottom: 40px;
+    padding: 4.1rem;
+    box-shadow: 0 0 1rem rgba(19, 19, 31, 0.05);
+    margin-bottom: 4rem;
 }
 .news .top {
     display: flex;
@@ -88,19 +89,19 @@ main {
 }
 .news .top span {
     color: var(--textligth);
-    font-size: 1rem;
-    margin-bottom: 22px;
+    font-size: 1.6rem;
+    margin-bottom: 2.2rem;
 }
 
 .news .text h2 {
     color: var(--textdark) ;
-    font-size: 26px;
+    font-size: 2.6rem;
     font-weight: 400;
 }
 .news .text h3 {
-    margin-top: 8px;
+    margin-top: .8rem;
     color: var(--textligth);
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 400;
 }
 
