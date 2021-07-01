@@ -34,8 +34,8 @@
                     <img src="imagens/Vector.svg" alt="">
                 </div>
                 <div class="text">
-                    <h2>Agora é oficial: o Windows 11 está vindo</h2>
-                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.</h3>
+                    <h2 class="title">Agora é oficial: o Windows 11 está vindo</h2>
+                    <h3 class="descripton">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.</h3>
                 </div>
             </article>
             <article class="news">
@@ -44,8 +44,8 @@
                     <img src="imagens/Vector.svg" alt="">
                 </div>
                 <div class="text">
-                    <h2>Tim Berners-Lee vai leiloar código-fonte da web</h2>
-                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis. Praesent et auctor justo. Vestibulum nisl orci, lacinia venenatis leo sit amet, pulvinar tincidunt risus. Phasellus nisl dui, cursus a lectus et, interdum ullamcorper libero.</h3>
+                    <h2 class="title">Tim Berners-Lee vai leiloar código-fonte da web</h2>
+                    <h3 class="descripton">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis. Praesent et auctor justo. Vestibulum nisl orci, lacinia venenatis leo sit amet, pulvinar tincidunt risus. Phasellus nisl dui, cursus a lectus et, interdum ullamcorper libero.</h3>
                 </div>
             </article>
             <article class="news">
@@ -54,8 +54,8 @@
                     <img src="imagens/Vector.svg" alt="">
                 </div>
                 <div class="text">
-                    <h2>Tem Firefox novo no pedaço e você vai querer migraro</h2>
-                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est.</h3>
+                    <h2 class="title">Tem Firefox novo no pedaço e você vai querer migraro</h2>
+                    <h3 class="descripton">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est.</h3>
                 </div>
             </article>
             <article class="news">
@@ -64,11 +64,26 @@
                     <img src="imagens/Vector.svg" alt="">
                 </div>
                 <div class="text">
-                    <h2>John McAfee, criador do antivírus McAfee, morre</h2>
-                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis. Praesent et auctor justo. Vestibulum nisl orci, lacinia venenatis leo sit amet, pulvinar tincidunt risus. Phasellus nisl dui, cursus a lectus et, interdum ullamcorper libero.</h3>
+                    <h2 class="title">John McAfee, criador do antivírus McAfee, morre</h2>
+                    <h3 class= "descripton">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis. Praesent et auctor justo. Vestibulum nisl orci, lacinia venenatis leo sit amet, pulvinar tincidunt risus. Phasellus nisl dui, cursus a lectus et, interdum ullamcorper libero.</h3>
                 </div>
             </article>
         </div>
     </main>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        const sr = ScrollReveal({
+            origin: 'left',
+            distance: '50px',
+            duration: 2000,
+            reset: true
+        });
+        ScrollReveal().reveal('.container', { delay: 20 });
+        ScrollReveal().reveal('.news-container', { delay: 80});
+        ScrollReveal().reveal('.news', { delay: 200 });
+        ScrollReveal().reveal('.top', { delay: 400 });
+        ScrollReveal().reveal('.title', { delay: 500 });
+        ScrollReveal().reveal('.description', { delay: 600 });
+</script>
 </body>
 </html>
