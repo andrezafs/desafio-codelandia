@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lexend+Deca&display=swap');
+
+:root {
+    --blue: #574AE8;
+    --grey: #f3f5f7;
+    --white: #FFFFFF;
+    --textdark: #313131;
+    --textligth:#B6B6B6;
+    --gradient:linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+}
