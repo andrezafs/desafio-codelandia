@@ -4,4 +4,55 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: 0;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+header {
+    height:15.625rem ;
+    background: var(--gradient);
+ 
+}
+.container {
+    max-width: 900px;
+    padding: 2.56rem 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+.nav nav {
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    font-size:1.5rem ;
+    font-weight: 400;
+    color: var(--white);
+}
+
+.search {
+    margin-top: 4.4rem;
+}
+form {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+
+}
+form img {
+    margin: 17px;
+}
+
+.search input {
+   
+    width: 900px;
+    height: 65px;
+
+    border: 0;
+    background: none;
+   
+ 
 }
