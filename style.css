@@ -53,8 +53,8 @@ form img {
 
     border: 0;
     background: none;
+    color: white;
    
- 
 }
 .search input::placeholder {
     color: white;
@@ -63,4 +63,42 @@ form img {
 }
 .search input:placeholder-shown {
     color: white;
+}
+main {
+ 
+    background: #E5E5E5;}
+
+.news-container {
+    padding: 100px 0;
+    max-width: 900px;
+    margin: 0 auto; 
+  
+   
+ 
+}
+.news {
+    border-radius: 5px;
+   background: white;
+    padding: 41px;
+    box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+    margin-bottom: 40px;
+}
+.news .top {
+    display: flex;
+    justify-content: space-between;
+}
+.news .top span {
+    color: var(--textligth);
+    font-size: 1rem;
+    margin-bottom: 22px;
+}
+.news .text h2 {
+    color: var(--textdark) ;
+    font-size: 26px;
+}
+.news .text h3 {
+    margin-top: 8px;
+    color: var(--textligth);
+    font-size: 18px;
+    font-weight: 400;
 }
