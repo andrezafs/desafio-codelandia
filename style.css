@@ -5,6 +5,7 @@
     text-decoration: none;
     outline: 0;
     font-family: 'Lexend Deca', sans-serif;
+    font-size: 62.5% 
 }
 
 header {
@@ -27,7 +28,7 @@ header {
 }
 
 nav a {
-    font-size:1.5rem ;
+    font-size:2.4rem ;
     font-weight: 400;
     color: var(--white);
 }
@@ -72,13 +73,11 @@ main {
     padding: 100px 0;
     max-width: 900px;
     margin: 0 auto; 
-  
-   
  
 }
 .news {
     border-radius: 5px;
-   background: white;
+    background: white;
     padding: 41px;
     box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
     margin-bottom: 40px;
@@ -92,13 +91,25 @@ main {
     font-size: 1rem;
     margin-bottom: 22px;
 }
+
 .news .text h2 {
     color: var(--textdark) ;
     font-size: 26px;
+    font-weight: 400;
 }
 .news .text h3 {
     margin-top: 8px;
     color: var(--textligth);
     font-size: 18px;
     font-weight: 400;
+}
+
+@media  (max-width: 900px) {
+    .container {
+        width: 90%;
+    }
+    .news-container {
+        width: 90%;
+       
+    }
 }
